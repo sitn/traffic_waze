@@ -1,0 +1,26 @@
+{
+"type": "FeatureCollection",
+"name": "localities_vdr",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::2056" } },
+"features": [
+{ "type": "Feature", "properties": { "NAME": "Wavre" }, "geometry": { "type": "Point", "coordinates": [ 2568202.39, 1208198.89, 442.02 ] } },
+{ "type": "Feature", "properties": { "NAME": "Marin" }, "geometry": { "type": "Point", "coordinates": [ 2566805.45, 1206557.47, 442.02 ] } },
+{ "type": "Feature", "properties": { "NAME": "Le Landeron" }, "geometry": { "type": "Point", "coordinates": [ 2571738.42, 1211455.52, 442.02 ] } },
+{ "type": "Feature", "properties": { "NAME": "Marin" }, "geometry": { "type": "Point", "coordinates": [ 2566927.68, 1206636.05, 442.02 ] } },
+{ "type": "Feature", "properties": { "NAME": "Savagnier" }, "geometry": { "type": "Point", "coordinates": [ 2563139.83, 1211484.59, 786.55 ] } },
+{ "type": "Feature", "properties": { "NAME": "Cernier" }, "geometry": { "type": "Point", "coordinates": [ 2559551.42, 1212392.61, 786.55 ] } },
+{ "type": "Feature", "properties": { "NAME": "Neuchâtel" }, "geometry": { "type": "Point", "coordinates": [ 2561450.58, 1205179.61, 516.83 ] } },
+{ "type": "Feature", "properties": { "NAME": "Saules" }, "geometry": { "type": "Point", "coordinates": [ 2562004.81, 1209782.06, 786.55 ] } },
+{ "type": "Feature", "properties": { "NAME": "Lignières" }, "geometry": { "type": "Point", "coordinates": [ 2571800.41, 1214621.07, 815.46 ] } },
+{ "type": "Feature", "properties": { "NAME": "Engollon" }, "geometry": { "type": "Point", "coordinates": [ 2560666.61, 1209800.12, 727.94 ] } },
+{ "type": "Feature", "properties": { "NAME": "Boudevilliers" }, "geometry": { "type": "Point", "coordinates": [ 2558175.19, 1208586.26, 754.22 ] } },
+{ "type": "Feature", "properties": { "NAME": "Fenin" }, "geometry": { "type": "Point", "coordinates": [ 2560779.15, 1208350.32, 764.78 ] } },
+{ "type": "Feature", "properties": { "NAME": "Enges" }, "geometry": { "type": "Point", "coordinates": [ 2567513.13, 1211831.8, 820.84 ] } },
+{ "type": "Feature", "properties": { "NAME": "Cressier" }, "geometry": { "type": "Point", "coordinates": [ 2569320.59, 1210923.8, 437.74 ] } },
+{ "type": "Feature", "properties": { "NAME": "Valangin" }, "geometry": { "type": "Point", "coordinates": [ 2559544.85, 1207390.12, 650.12 ] } },
+{ "type": "Feature", "properties": { "NAME": "Les Hauts-Geneveys" }, "geometry": { "type": "Point", "coordinates": [ 2557046.78, 1210757.0, 954.97 ] } },
+{ "type": "Feature", "properties": { "NAME": "Fontaines" }, "geometry": { "type": "Point", "coordinates": [ 2559033.53, 1210390.25, 769.02 ] } },
+{ "type": "Feature", "properties": { "NAME": "Cornaux" }, "geometry": { "type": "Point", "coordinates": [ 2568062.7, 1209648.22, 442.02 ] } },
+{ "type": "Feature", "properties": { "NAME": "Le Pâquier" }, "geometry": { "type": "Point", "coordinates": [ 2565689.84, 1216550.96, 904.03 ] } }
+]
+}

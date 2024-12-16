@@ -1,0 +1,17 @@
+{
+"type": "FeatureCollection",
+"name": "localities_vdt",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::2056" } },
+"features": [
+{ "type": "Feature", "properties": { "NAME": "La Côte-aux-Fées" }, "geometry": { "type": "Point", "coordinates": [ 2527539.22, 1191052.39, 1043.52 ] } },
+{ "type": "Feature", "properties": { "NAME": "Buttes" }, "geometry": { "type": "Point", "coordinates": [ 2532157.74, 1193295.39, 802.65 ] } },
+{ "type": "Feature", "properties": { "NAME": "Fleurier" }, "geometry": { "type": "Point", "coordinates": [ 2534903.87, 1194998.22, 737.01 ] } },
+{ "type": "Feature", "properties": { "NAME": "St-Sulpice" }, "geometry": { "type": "Point", "coordinates": [ 2533307.1, 1195908.79, 750.29 ] } },
+{ "type": "Feature", "properties": { "NAME": "Les Bayards" }, "geometry": { "type": "Point", "coordinates": [ 2529918.88, 1196545.87, 995.4 ] } },
+{ "type": "Feature", "properties": { "NAME": "Môtiers" }, "geometry": { "type": "Point", "coordinates": [ 2537002.9, 1195852.93, 739.78 ] } },
+{ "type": "Feature", "properties": { "NAME": "Les Verrières" }, "geometry": { "type": "Point", "coordinates": [ 2526806.25, 1195342.59, 930.79 ] } },
+{ "type": "Feature", "properties": { "NAME": "Boveresse" }, "geometry": { "type": "Point", "coordinates": [ 2536033.76, 1196533.94, 739.78 ] } },
+{ "type": "Feature", "properties": { "NAME": "Noiraigue" }, "geometry": { "type": "Point", "coordinates": [ 2545323.62, 1200700.86, 729.26 ] } },
+{ "type": "Feature", "properties": { "NAME": "Travers" }, "geometry": { "type": "Point", "coordinates": [ 2541826.41, 1199061.18, 735.06 ] } }
+]
+}

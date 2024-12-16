@@ -1,0 +1,239 @@
+@import "node_modules/ol/ol.css";
+
+/* General Reset */
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Map Styling */
+  #map {
+    position: absolute;
+    top: 0;
+    left: 505px; /* Matches sidebar width */
+    width: calc(100% - 505px);
+    height: 100%;
+  }
+  
+  /* Sidebar Styling */
+  #sidebar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 480px;
+    height: 100%;
+    background-color: #f8f9fa;
+    border-right: 1px solid #ddd;
+    overflow-y: auto;
+    margin-left: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    resize: none;
+  }
+  
+  #resizer {
+    position: absolute;
+    top: 0;
+    left: 500px; /* Matches the default sidebar width */
+    width: 5px;
+    height: 100%;
+    background-color: #ddd;
+    cursor: ew-resize; /* Indicates horizontal resizing */
+    z-index: 1000;
+  }
+
+
+  #calendar {
+    display : flex;
+    margin-top: 20px;
+    width: 95%;
+    height: 300px; /* Adjust the height as needed */
+    overflow: auto; /* Add this to handle any overflow */
+    background-color: #f1f1f1; /* Optional: Add background color for better visibility */
+    border: 1px solid #ddd; /* Optional: Add a border */
+    padding: 5px; /* Adjust padding for better spacing */
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for aesthetics */
+    /*center the calendar*/
+    margin-left: auto;
+    margin-right: auto;
+    pointer-events: auto;
+    z-index: 1;
+
+  }
+
+
+  .fc {
+    font-size: 12px; /* Base font size for the calendar */
+  }
+  
+  .fc-header-toolbar {
+    font-size: 10px; /* Slightly larger font for toolbar/header */
+  }
+  
+  .fc-daygrid-day {
+    font-size: 10px; /* Reduce size of individual days */
+  }
+
+  .fc-toolbar-title {
+    font-size: 1.5em;
+    margin: 0px;
+  }
+
+
+
+  #sidebar h3 {
+    margin-top: 20px;
+    color: #333;
+    font-size: 18px;
+  }
+
+  .stat-item {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .stat-title {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .stat-value {
+    color: #007bff;
+  }
+  
+  #event-histogram {
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    max-width: 90%;
+  }
+  
+  .details {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+    margin-right: 10px;
+    background: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  /* Popup Styling */
+  .ol-popup {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    min-width: 150px;
+    padding: 10px;
+    color: #333;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .ol-popup:after,
+  .ol-popup:before {
+    top: 100%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+  }
+  
+  .ol-popup:hover {
+    border-color: #007bff;
+  }
+  
+  .stat-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    width: 300px;
+    background-color: #f9f9f9;
+  }
+  
+  .stat-item {
+    margin-bottom: 10px;
+  }
+  
+  
+  .ui-autocomplete-loading {
+    background: white url("images/ui-anim_basic_16x16.gif") right center no-repeat;
+    }
+
+  @media (max-width: 768px) {
+    #sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+      border-right: none;
+      box-shadow: none;
+    }
+    #map {
+      top: 300px; /* Push the map below the sidebar */
+      left: 0;
+      width: 100%;
+    }
+  }
+
+  #gmf_search_input {
+    width: 350px;
+    height:  30px;
+    position: absolute;
+    right: 3%;
+    top: 10px;
+    background-color: white;
+    z-index: 10;
+    border: 2px solid;
+    border-radius: 5px;
+    border-color: lightgray;
+    opacity: 0.8;
+}
+
+#gmf_search_input input {
+    color: #01193f !important;
+    width: 350px;
+    height: 24px;
+    text-align: center;
+    border: none;
+    outline:none;
+}
+
+.sitn-autocomplete {
+    color: #01193f !important;
+    width: 350px;
+    font-size: 12px;
+    opacity: 0.8;
+    top: 48px !important;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+@media only screen and (max-width: 500px) {
+    #gmf_search_input {
+        width: 250px;
+        height:  25px;
+    }
+
+    #gmf_search_input input {
+        width: 210px;
+        height: 19px;
+    }
+    
+    .sitn-autocomplete {
+        font-size: 10px;
+        width: 250px;
+        opacity: 0.8;
+        top: 43px !important;
+    }
+}
+
+
+
+

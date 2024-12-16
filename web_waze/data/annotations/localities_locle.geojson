@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "localities_locle",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::2056" } },
+"features": [
+{ "type": "Feature", "properties": { "NAME": "Les Brenets" }, "geometry": { "type": "Point", "coordinates": [ 2544183.31, 1213298.22, 832.14 ] } },
+{ "type": "Feature", "properties": { "NAME": "La Chaux-du-Milieux" }, "geometry": { "type": "Point", "coordinates": [ 2544018.06, 1207222.57, 1089.08 ] } },
+{ "type": "Feature", "properties": { "NAME": "La Brévine" }, "geometry": { "type": "Point", "coordinates": [ 2536732.42, 1203514.49, 1065.66 ] } },
+{ "type": "Feature", "properties": { "NAME": "Les Ponts-de-Martel" }, "geometry": { "type": "Point", "coordinates": [ 2546214.2, 1205261.48, 997.2 ] } },
+{ "type": "Feature", "properties": { "NAME": "Brot-Dessus" }, "geometry": { "type": "Point", "coordinates": [ 2546866.82, 1202652.94, 1010.89 ] } }
+]
+}

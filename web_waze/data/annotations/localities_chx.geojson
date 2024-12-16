@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "localities_chx",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::2056" } },
+"features": [
+{ "type": "Feature", "properties": { "NAME": "Les Planchettes" }, "geometry": { "type": "Point", "coordinates": [ 2549222.44, 1217397.77, 984.98 ] } },
+{ "type": "Feature", "properties": { "NAME": "La Sagne" }, "geometry": { "type": "Point", "coordinates": [ 2551505.3, 1210135.16, 1008.97 ] } }
+]
+}

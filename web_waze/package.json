@@ -1,0 +1,22 @@
+{
+  "name": "web_waze",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.4.10"
+  },
+  "dependencies": {
+    "chart.js": "^4.4.6",
+    "chartjs-adapter-date-fns": "^3.0.0",
+    "date-fns": "^4.1.0",
+    "fullcalendar": "^6.1.15",
+    "jquery": "^3.7.1",
+    "jquery-ui": "^1.14.1",
+    "ol": "latest",
+    "proj4": "^2.14.0"
+  }
+}

@@ -1,0 +1,8 @@
+dist
+config.properties
+mainGPTed.js
+package-lock.json
+vite-config.js
+.github
+node_modules
+jams_agg.geojson

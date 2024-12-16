@@ -1,0 +1,23 @@
+{
+"type": "FeatureCollection",
+"name": "localities_boudry",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::2056" } },
+"features": [
+{ "type": "Feature", "properties": { "NAME": "St-Aubin" }, "geometry": { "type": "Point", "coordinates": [ 2549732.16, 1194192.29, 509.09 ] } },
+{ "type": "Feature", "properties": { "NAME": "Peseux" }, "geometry": { "type": "Point", "coordinates": [ 2558434.15, 1204211.13, 602.14 ] } },
+{ "type": "Feature", "properties": { "NAME": "Bôle" }, "geometry": { "type": "Point", "coordinates": [ 2557290.36, 1202957.43, 438.9 ] } },
+{ "type": "Feature", "properties": { "NAME": "Champ-du-Moulin" }, "geometry": { "type": "Point", "coordinates": [ 2549469.71, 1201275.96, 686.14 ] } },
+{ "type": "Feature", "properties": { "NAME": "Auvernier" }, "geometry": { "type": "Point", "coordinates": [ 2556050.57, 1201770.02, 438.9 ] } },
+{ "type": "Feature", "properties": { "NAME": "Brot-Dessous" }, "geometry": { "type": "Point", "coordinates": [ 2547422.61, 1200756.34, 854.4 ] } },
+{ "type": "Feature", "properties": { "NAME": "Colombier" }, "geometry": { "type": "Point", "coordinates": [ 2556539.5, 1201717.64, 438.9 ] } },
+{ "type": "Feature", "properties": { "NAME": "Rochefort" }, "geometry": { "type": "Point", "coordinates": [ 2552064.04, 1203111.91, 765.94 ] } },
+{ "type": "Feature", "properties": { "NAME": "Vaumarcus" }, "geometry": { "type": "Point", "coordinates": [ 2547767.7, 1191957.17, 509.09 ] } },
+{ "type": "Feature", "properties": { "NAME": "Rochefort" }, "geometry": { "type": "Point", "coordinates": [ 2552064.04, 1203111.91, 765.94 ] } },
+{ "type": "Feature", "properties": { "NAME": "Montalchez" }, "geometry": { "type": "Point", "coordinates": [ 2547213.47, 1194208.61, 644.84 ] } },
+{ "type": "Feature", "properties": { "NAME": "Fresens" }, "geometry": { "type": "Point", "coordinates": [ 2547275.39, 1193233.99, 618.0 ] } },
+{ "type": "Feature", "properties": { "NAME": "Bevaix" }, "geometry": { "type": "Point", "coordinates": [ 2552481.0, 1197755.55, 433.81 ] } },
+{ "type": "Feature", "properties": { "NAME": "Areuse" }, "geometry": { "type": "Point", "coordinates": [ 2555483.06, 1200416.73, 438.9 ] } },
+{ "type": "Feature", "properties": { "NAME": "Cortaillod" }, "geometry": { "type": "Point", "coordinates": [ 2555243.34, 1199524.46, 430.87 ] } },
+{ "type": "Feature", "properties": { "NAME": "Corcelles" }, "geometry": { "type": "Point", "coordinates": [ 2556631.22, 1203997.23, 602.14 ] } }
+]
+}

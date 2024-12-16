@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"name": "ne_districts_simple",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::2056" } },
+"features": [
+{ "type": "Feature", "properties": { "NAME": "Boudry", "next_file": "localities_boudry.geojson" }, "geometry": { "type": "Point", "coordinates": [ 2554535.69, 1200290.29, 516.83 ] } },
+{ "type": "Feature", "properties": { "NAME": "Neuchâtel", "next_file": "localities_neuchatel.geojson" }, "geometry": { "type": "Point", "coordinates": [ 2561450.58, 1205179.61, 516.83 ] } },
+{ "type": "Feature", "properties": { "NAME": "La Chaux-de-Fonds", "next_file": "localities_chx.geojson" }, "geometry": { "type": "Point", "coordinates": [ 2553158.82, 1216470.87, 1062.23 ] } },
+{ "type": "Feature", "properties": { "NAME": "Val-de-Travers", "next_file": "localities_vdt.geojson" }, "geometry": { "type": "Point", "coordinates": [ 2538364.48, 1197401.47, 741.77 ] } },
+{ "type": "Feature", "properties": { "NAME": "Val-de-Ruz", "next_file": "localities_vdr.geojson" }, "geometry": { "type": "Point", "coordinates": [ 2563436.68, 1213527.63, 786.55 ] } },
+{ "type": "Feature", "properties": { "NAME": "Le Locle", "next_file": "localities_locle.geojson" }, "geometry": { "type": "Point", "coordinates": [ 2547372.71, 1211988.12, 919.57 ] } }
+]
+}

@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Waze Traffic Data Interface</title>
+    <!-- Favicon -->
+    <link rel="icon" href="https://sitnintra.ne.ch/static/26367/images/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="./node_modules/jquery-ui/dist/themes/base/jquery-ui.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.14.1/jquery-ui.min.js"></script>
+
+    <script type="module" src="src/gmf_search_box.js"></script>
+    <script type="module" crossorigin src="./src/main.js"></script>
+    <link rel="stylesheet" crossorigin href="./style.css">
+  </head>
+  <body>
+    <div id="gmf_search_input">
+			<input id="places" placeholder="Saisir une adresse">
+		</div>
+    <div id="sidebar">
+      <h1>Ralentissements </h1>
+      <div id = "calendar"></div>
+      <h3>Statistiques</h3>
+      <div class = "stat-container">
+        <div class="stat-item">
+          <span id="troncon" class = "stat-meta">Tout le canton</span>
+        </div>
+        <div class="stat-item">
+          <span id = "date" class = "stat-meta">Depuis le début</span>
+        </div>
+      </div>
+      <div class="stat-item">
+        <span class="stat-title">Nombre de ralentissements:</span>
+        <span id="total-jams" class="stat-value">0</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-title">Vitesse moyenne ralentie :</span>
+        <span id="avg-speed" class="stat-value">0 km/h</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-title">Temps de ralentissement moyen :</span>
+        <span id="avg-delay" class="stat-value">0 s</span>
+      </div>
+
+      <h3>Distribution horaire et journalière</h3>
+      <span id="histogram-title">Nombre de ralentissements</span>
+      <canvas id="event-histogram" width="150" height="120"></canvas>
+      <span id="time-histogram-title">Selon les heures</span>
+      <canvas id="time-histogram" width="150" height="120"></canvas>
+
+    </div>
+    <div id = "resizer"></div>
+
+    <div id="map"></div>
+
+    <!-- Main JavaScript File -->
+
+  </body>
+</html>
