@@ -4,14 +4,6 @@
 Traffic Waze is a Python-based tool designed to retrieve and analyze real-time traffic data using the Waze API. It provides functionalities to update a PostGis database on a desired time interval to stock the datas provided by Waze. <br>
 Given this database, it also allows to setup a web interface with tools to analyze those datas. <br>
 
-## Web interface
-#### **For the time being, this is a private github repo, which means data can be found inside the repo.** <br> 
-#### **Everything necessary to run the web interface (including the aggregated data can be found in the [web_waze folder](https://github.com/filsdufrere/traffic_waze/tree/main/web_waze).** <br>
-
-The following section will be relevant when datas are removed from the repo.
-
-
-
 ## Installation
 
 To install the necessary dependencies, run:
