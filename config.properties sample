@@ -1,0 +1,10 @@
+#  Sample config.properties file
+[database]
+name = 
+host = 
+port = 
+user = 
+password = 
+
+[waze]
+url = 
