@@ -15,7 +15,7 @@
     "date-fns": "^4.1.0",
     "fullcalendar": "^6.1.15",
     "jquery": "^3.7.1",
-    "jquery-ui": "^1.14.1",
+    "jquery-ui-dist": "^1.13.3",
     "ol": "latest",
     "proj4": "^2.14.0"
   }

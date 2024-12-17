@@ -29,8 +29,7 @@ export function setupCalendar(data) {
     document.getElementById('date').innerText = `From ${new Date(min_date).toLocaleDateString()} to ${new Date(max_date).toLocaleDateString()}`;
 
     calendar = new Calendar(calendarEl, {
-        plugins: [dayGridPlugin, interactionPlugin, listPlugin],
-        allDay: true, 
+        plugins: [dayGridPlugin, interactionPlugin, listPlugin], 
         initialView: 'dayGridMonth',
         headerToolbar: {
           left: 'prev,next customButton', 
@@ -59,7 +58,7 @@ export function setupCalendar(data) {
             startDate = info.dateStr;
           } else {
             // Second click sets the end date
-            const endDate = info.dateStr;
+            let endDate = info.dateStr;
     
             // Validate the interval
             if (new Date(startDate) > new Date(endDate)) {

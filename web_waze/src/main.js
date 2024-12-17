@@ -6,7 +6,6 @@ import { setupResizer } from './resizer.js';
 import { setupCalendar } from './calendar.js';
 import { create_overlay, selecta } from './popup.js';
 import { create_histogram } from './histogram.js';
-import { overlapsType } from 'ol/expr/expression.js';
 import { initializeAutocomplete } from './gmf_search_box.js';
 
 

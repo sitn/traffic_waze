@@ -77,6 +77,6 @@ jams_agg = jams_agg.to_crs(epsg=2056)
 jams_agg['orientation'] = jams_agg['geometry'].apply(define_orientation)
 
 jams_agg.sindex
-jams_agg.to_file("./GPKG/jams_agg.gpkg", driver='GPKG')
+#jams_agg.to_file("./GPKG/jams_agg.gpkg", driver='GPKG')
 jams_agg.to_file("./web_waze/src/data/jams_agg.geojson", driver='GeoJSON')
 jams_agg.to_file(r"\\nesitn2\e$\web_repository\web_waze\src\data\jams_agg.geojson", driver='GeoJSON')
