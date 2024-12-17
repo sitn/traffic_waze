@@ -1,3 +1,4 @@
+import './jquery-global.js';
 import { initializeMap, define_layers, createLegend} from './map.js';
 
 import { updateStatistics } from './sidebar.js';
@@ -7,7 +8,6 @@ import { create_overlay, selecta } from './popup.js';
 import { create_histogram } from './histogram.js';
 import { overlapsType } from 'ol/expr/expression.js';
 import { initializeAutocomplete } from './gmf_search_box.js';
-
 
 
 

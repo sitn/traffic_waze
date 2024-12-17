@@ -1,11 +1,14 @@
 import { fromLonLat } from 'ol/proj';
 import GeoJSON from 'ol/format/GeoJSON';
 
+import 'jquery-ui-dist/jquery-ui.css';
+import 'jquery-ui-dist/jquery-ui.js';
+
 
 
 export function initializeAutocomplete(map) {
     // Use jQuery autocomplete
-    window.$("#places").autocomplete({
+    $("#places").autocomplete({
         classes: {
             "ui-autocomplete": "sitn-autocomplete",
         },

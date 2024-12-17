@@ -133,10 +133,10 @@ export function selecta(event, overlay, map, calendar) {
         let time = new Date(feature.get('pubdate')).toLocaleString();
         tableHTML += `
           <tr>
-              <td style="border: 1px solid #ddd; padding: 8px;">${feature.get('mean_speedkmh').toFixed(2)}</td>
-              <td style="border: 1px solid #ddd; padding: 8px;">${feature.get('mean_delay')}</td>
-              <td style="border: 1px solid #ddd; padding: 8px;">${feature.get('mean_length')}</td>
-              <td style="border: 1px solid #ddd; padding: 8px;">${feature.get('mean_level')}</td>
+              <td style="border: 1px solid #ddd; padding: 8px;">${feature.get('mean_speedkmh').toFixed(1)}</td>
+              <td style="border: 1px solid #ddd; padding: 8px;">${feature.get('mean_delay').toFixed(1)}</td>
+              <td style="border: 1px solid #ddd; padding: 8px;">${feature.get('mean_length').toFixed(1)}</td>
+              <td style="border: 1px solid #ddd; padding: 8px;">${feature.get('mean_level').toFixed(1)}</td>
               <td style="border: 1px solid #ddd; padding: 8px;">${time}</td>
           </tr>
         `;
